@@ -1,12 +1,16 @@
 //
 //  AppDelegate.m
-//  TurismoColima
+//  üShopiOS
 //
-//  Created by Héctor Cuevas Morfín on 3/17/16.
-//  Copyright © 2016 AppData. All rights reserved.
+//  Created by HECTOR ALFONSO on 01/04/15.
+//  Copyright (c) 2015 DEVTEAM. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import <Mapbox/Mapbox.h>
+//#import "FBSDKCoreKit.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +20,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch.´
+    [MGLAccountManager setAccessToken:@"pk.eyJ1IjoicG9uY2hvbm92IiwiYSI6ImNpZ3Zxa3ZoMDBydzl3Y201cGhrbnRpeDUifQ.Zt9aVX6OklIIz6QSjxvVDA"];
+
+    
+    // Register for Push Notitications
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
+    
+    
+    [[Twitter sharedInstance] startWithConsumerKey:@"7Kh7RMcI0KyAp6izsuMmlShmI" consumerSecret:@"3LIvll6un0vkOo5tbgIayQAaac1nwaUcm4BTMKMosZigjZM994"];
+    [Fabric with:@[[Twitter class], [Crashlytics class]]];
+    
+   /* [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];*/
+
     return YES;
 }
 
@@ -36,10 +59,21 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+ //   [FBSDKAppEvents activateApp];
+
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
+
+
+
+
+
 
 @end

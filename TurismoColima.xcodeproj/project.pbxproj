@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451C3F9B8DE0185047E16F34 /* libPods-TurismoColima.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D96DD6017012282B605F995 /* libPods-TurismoColima.a */; };
 		97B254641C9B4E2100559038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254631C9B4E2100559038 /* main.m */; };
-		97B254671C9B4E2100559038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254661C9B4E2100559038 /* AppDelegate.m */; };
 		97B2546A1C9B4E2100559038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254691C9B4E2100559038 /* ViewController.m */; };
 		97B2546D1C9B4E2100559038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B2546B1C9B4E2100559038 /* Main.storyboard */; };
-		97B2546F1C9B4E2100559038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B2546E1C9B4E2100559038 /* Assets.xcassets */; };
 		97B254721C9B4E2100559038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B254701C9B4E2100559038 /* LaunchScreen.storyboard */; };
 		97B2547D1C9B4E2100559038 /* TurismoColimaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B2547C1C9B4E2100559038 /* TurismoColimaTests.m */; };
 		97B254881C9B4E2100559038 /* TurismoColimaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254871C9B4E2100559038 /* TurismoColimaUITests.m */; };
+		97B254A71C9B4F7100559038 /* MEOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254971C9B4F7100559038 /* MEOtherViewController.m */; };
+		97B254A81C9B4F7100559038 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254991C9B4F7100559038 /* MapViewController.m */; };
+		97B254A91C9B4F7100559038 /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B2549B1C9B4F7100559038 /* MEMenuViewController.m */; };
+		97B254AA1C9B4F7100559038 /* PlacesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B2549D1C9B4F7100559038 /* PlacesTableViewCell.m */; };
+		97B254AB1C9B4F7100559038 /* PlacesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B2549E1C9B4F7100559038 /* PlacesTableViewCell.xib */; };
+		97B254AC1C9B4F7100559038 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254A01C9B4F7100559038 /* SocialViewController.m */; };
+		97B254AD1C9B4F7100559038 /* DetailPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254A21C9B4F7100559038 /* DetailPlaceViewController.m */; };
+		97B254AE1C9B4F7100559038 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254A41C9B4F7100559038 /* InformationViewController.m */; };
+		97B254AF1C9B4F7100559038 /* ConfigutartionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254A61C9B4F7100559038 /* ConfigutartionViewController.m */; };
+		97B254B21C9B4FB100559038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B254B11C9B4FB100559038 /* AppDelegate.m */; };
+		97B254B41C9B51B600559038 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B254B31C9B51B600559038 /* Images.xcassets */; };
+		97B254B71C9B51F100559038 /* turismocolima.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B254B61C9B51F100559038 /* turismocolima.png */; };
+		97B254BD1C9B53F800559038 /* twitter1.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B254B81C9B53F800559038 /* twitter1.png */; };
+		97B254BE1C9B53F800559038 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B254B91C9B53F800559038 /* like.png */; };
+		97B254BF1C9B53F800559038 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B254BA1C9B53F800559038 /* youtube.png */; };
+		97B254C01C9B53F800559038 /* reloading3.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B254BB1C9B53F800559038 /* reloading3.png */; };
+		97B254C11C9B53F800559038 /* 12312538_10205543060432989_1763888460_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97B254BC1C9B53F800559038 /* 12312538_10205543060432989_1763888460_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D96DD6017012282B605F995 /* libPods-TurismoColima.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TurismoColima.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882747D081F5B999047C08A5 /* Pods-TurismoColima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurismoColima.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurismoColima/Pods-TurismoColima.debug.xcconfig"; sourceTree = "<group>"; };
+		905BB5A913FCD33D8E3713C6 /* Pods-TurismoColima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurismoColima.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurismoColima/Pods-TurismoColima.release.xcconfig"; sourceTree = "<group>"; };
 		97B2545F1C9B4E2100559038 /* TurismoColima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurismoColima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B254631C9B4E2100559038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97B254651C9B4E2100559038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		97B254661C9B4E2100559038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		97B254681C9B4E2100559038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97B254691C9B4E2100559038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97B2546C1C9B4E2100559038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97B2546E1C9B4E2100559038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B254711C9B4E2100559038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97B254731C9B4E2100559038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B254781C9B4E2100559038 /* TurismoColimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurismoColimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +67,32 @@
 		97B254831C9B4E2100559038 /* TurismoColimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurismoColimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B254871C9B4E2100559038 /* TurismoColimaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurismoColimaUITests.m; sourceTree = "<group>"; };
 		97B254891C9B4E2100559038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B254961C9B4F7100559038 /* MEOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEOtherViewController.h; sourceTree = "<group>"; };
+		97B254971C9B4F7100559038 /* MEOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEOtherViewController.m; sourceTree = "<group>"; };
+		97B254981C9B4F7100559038 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		97B254991C9B4F7100559038 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		97B2549A1C9B4F7100559038 /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuViewController.h; sourceTree = "<group>"; };
+		97B2549B1C9B4F7100559038 /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuViewController.m; sourceTree = "<group>"; };
+		97B2549C1C9B4F7100559038 /* PlacesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewCell.h; sourceTree = "<group>"; };
+		97B2549D1C9B4F7100559038 /* PlacesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewCell.m; sourceTree = "<group>"; };
+		97B2549E1C9B4F7100559038 /* PlacesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesTableViewCell.xib; sourceTree = "<group>"; };
+		97B2549F1C9B4F7100559038 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		97B254A01C9B4F7100559038 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		97B254A11C9B4F7100559038 /* DetailPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlaceViewController.h; sourceTree = "<group>"; };
+		97B254A21C9B4F7100559038 /* DetailPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaceViewController.m; sourceTree = "<group>"; };
+		97B254A31C9B4F7100559038 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		97B254A41C9B4F7100559038 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		97B254A51C9B4F7100559038 /* ConfigutartionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigutartionViewController.h; sourceTree = "<group>"; };
+		97B254A61C9B4F7100559038 /* ConfigutartionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigutartionViewController.m; sourceTree = "<group>"; };
+		97B254B01C9B4FB100559038 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97B254B11C9B4FB100559038 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97B254B31C9B51B600559038 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97B254B61C9B51F100559038 /* turismocolima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turismocolima.png; sourceTree = "<group>"; };
+		97B254B81C9B53F800559038 /* twitter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter1.png; sourceTree = "<group>"; };
+		97B254B91C9B53F800559038 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		97B254BA1C9B53F800559038 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		97B254BB1C9B53F800559038 /* reloading3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloading3.png; sourceTree = "<group>"; };
+		97B254BC1C9B53F800559038 /* 12312538_10205543060432989_1763888460_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12312538_10205543060432989_1763888460_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451C3F9B8DE0185047E16F34 /* libPods-TurismoColima.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		009857013713466AE6F5162F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D96DD6017012282B605F995 /* libPods-TurismoColima.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52CDC3DC12F7D31466863E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882747D081F5B999047C08A5 /* Pods-TurismoColima.debug.xcconfig */,
+				905BB5A913FCD33D8E3713C6 /* Pods-TurismoColima.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		97B254561C9B4E2100559038 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +145,8 @@
 				97B2547B1C9B4E2100559038 /* TurismoColimaTests */,
 				97B254861C9B4E2100559038 /* TurismoColimaUITests */,
 				97B254601C9B4E2100559038 /* Products */,
+				52CDC3DC12F7D31466863E30 /* Pods */,
+				009857013713466AE6F5162F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +163,16 @@
 		97B254611C9B4E2100559038 /* TurismoColima */ = {
 			isa = PBXGroup;
 			children = (
-				97B254651C9B4E2100559038 /* AppDelegate.h */,
-				97B254661C9B4E2100559038 /* AppDelegate.m */,
+				97B254B51C9B51E500559038 /* images */,
+				97B254951C9B4F6900559038 /* Controllers */,
 				97B254681C9B4E2100559038 /* ViewController.h */,
 				97B254691C9B4E2100559038 /* ViewController.m */,
+				97B254B01C9B4FB100559038 /* AppDelegate.h */,
+				97B254B11C9B4FB100559038 /* AppDelegate.m */,
 				97B2546B1C9B4E2100559038 /* Main.storyboard */,
-				97B2546E1C9B4E2100559038 /* Assets.xcassets */,
 				97B254701C9B4E2100559038 /* LaunchScreen.storyboard */,
 				97B254731C9B4E2100559038 /* Info.plist */,
+				97B254B31C9B51B600559038 /* Images.xcassets */,
 				97B254621C9B4E2100559038 /* Supporting Files */,
 			);
 			path = TurismoColima;
@@ -140,6 +204,43 @@
 			path = TurismoColimaUITests;
 			sourceTree = "<group>";
 		};
+		97B254951C9B4F6900559038 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97B254961C9B4F7100559038 /* MEOtherViewController.h */,
+				97B254971C9B4F7100559038 /* MEOtherViewController.m */,
+				97B254981C9B4F7100559038 /* MapViewController.h */,
+				97B254991C9B4F7100559038 /* MapViewController.m */,
+				97B2549A1C9B4F7100559038 /* MEMenuViewController.h */,
+				97B2549B1C9B4F7100559038 /* MEMenuViewController.m */,
+				97B2549C1C9B4F7100559038 /* PlacesTableViewCell.h */,
+				97B2549D1C9B4F7100559038 /* PlacesTableViewCell.m */,
+				97B2549E1C9B4F7100559038 /* PlacesTableViewCell.xib */,
+				97B2549F1C9B4F7100559038 /* SocialViewController.h */,
+				97B254A01C9B4F7100559038 /* SocialViewController.m */,
+				97B254A11C9B4F7100559038 /* DetailPlaceViewController.h */,
+				97B254A21C9B4F7100559038 /* DetailPlaceViewController.m */,
+				97B254A31C9B4F7100559038 /* InformationViewController.h */,
+				97B254A41C9B4F7100559038 /* InformationViewController.m */,
+				97B254A51C9B4F7100559038 /* ConfigutartionViewController.h */,
+				97B254A61C9B4F7100559038 /* ConfigutartionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		97B254B51C9B51E500559038 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				97B254B61C9B51F100559038 /* turismocolima.png */,
+				97B254B81C9B53F800559038 /* twitter1.png */,
+				97B254B91C9B53F800559038 /* like.png */,
+				97B254BA1C9B53F800559038 /* youtube.png */,
+				97B254BB1C9B53F800559038 /* reloading3.png */,
+				97B254BC1C9B53F800559038 /* 12312538_10205543060432989_1763888460_n.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97B2548C1C9B4E2100559038 /* Build configuration list for PBXNativeTarget "TurismoColima" */;
 			buildPhases = (
+				0E69BA3C938B41E83F99E59E /* 📦 Check Pods Manifest.lock */,
 				97B2545B1C9B4E2100559038 /* Sources */,
 				97B2545C1C9B4E2100559038 /* Frameworks */,
 				97B2545D1C9B4E2100559038 /* Resources */,
+				AC5776163F40A6B325803485 /* 📦 Embed Pods Frameworks */,
+				45531DEF800571E1F5298DC7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +348,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				97B254721C9B4E2100559038 /* LaunchScreen.storyboard in Resources */,
-				97B2546F1C9B4E2100559038 /* Assets.xcassets in Resources */,
+				97B254C01C9B53F800559038 /* reloading3.png in Resources */,
+				97B254B41C9B51B600559038 /* Images.xcassets in Resources */,
+				97B254B71C9B51F100559038 /* turismocolima.png in Resources */,
+				97B254BF1C9B53F800559038 /* youtube.png in Resources */,
 				97B2546D1C9B4E2100559038 /* Main.storyboard in Resources */,
+				97B254BE1C9B53F800559038 /* like.png in Resources */,
+				97B254AB1C9B4F7100559038 /* PlacesTableViewCell.xib in Resources */,
+				97B254C11C9B53F800559038 /* 12312538_10205543060432989_1763888460_n.jpg in Resources */,
+				97B254BD1C9B53F800559038 /* twitter1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +376,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E69BA3C938B41E83F99E59E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45531DEF800571E1F5298DC7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurismoColima/Pods-TurismoColima-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5776163F40A6B325803485 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurismoColima/Pods-TurismoColima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97B2545B1C9B4E2100559038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B254B21C9B4FB100559038 /* AppDelegate.m in Sources */,
 				97B2546A1C9B4E2100559038 /* ViewController.m in Sources */,
-				97B254671C9B4E2100559038 /* AppDelegate.m in Sources */,
+				97B254A71C9B4F7100559038 /* MEOtherViewController.m in Sources */,
+				97B254AD1C9B4F7100559038 /* DetailPlaceViewController.m in Sources */,
+				97B254A81C9B4F7100559038 /* MapViewController.m in Sources */,
+				97B254AC1C9B4F7100559038 /* SocialViewController.m in Sources */,
+				97B254AF1C9B4F7100559038 /* ConfigutartionViewController.m in Sources */,
+				97B254AE1C9B4F7100559038 /* InformationViewController.m in Sources */,
+				97B254A91C9B4F7100559038 /* MEMenuViewController.m in Sources */,
 				97B254641C9B4E2100559038 /* main.m in Sources */,
+				97B254AA1C9B4F7100559038 /* PlacesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +576,10 @@
 		};
 		97B2548D1C9B4E2100559038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882747D081F5B999047C08A5 /* Pods-TurismoColima.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TurismoColima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.AppdData.TurismoColima;
@@ -420,8 +589,10 @@
 		};
 		97B2548E1C9B4E2100559038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 905BB5A913FCD33D8E3713C6 /* Pods-TurismoColima.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = TurismoColima/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.AppdData.TurismoColima;
@@ -496,6 +667,7 @@
 				97B2548E1C9B4E2100559038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97B2548F1C9B4E2100559038 /* Build configuration list for PBXNativeTarget "TurismoColimaTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +676,7 @@
 				97B254911C9B4E2100559038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97B254921C9B4E2100559038 /* Build configuration list for PBXNativeTarget "TurismoColimaUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +685,7 @@
 				97B254941C9B4E2100559038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

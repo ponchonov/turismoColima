@@ -1,0 +1,7 @@
+CONFIGURATION_BUILD_DIR = $PODS_SHARED_BUILD_DIR/UAProgressView
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UAProgressView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CJMTwitterFollowButton" "${PODS_ROOT}/Headers/Public/Crashlytics" "${PODS_ROOT}/Headers/Public/ECSlidingViewController" "${PODS_ROOT}/Headers/Public/EGOCache" "${PODS_ROOT}/Headers/Public/FSImageViewer" "${PODS_ROOT}/Headers/Public/Fabric" "${PODS_ROOT}/Headers/Public/JGProgressHUD" "${PODS_ROOT}/Headers/Public/Mapbox-iOS-SDK" "${PODS_ROOT}/Headers/Public/TwitterCore" "${PODS_ROOT}/Headers/Public/TwitterKit" "${PODS_ROOT}/Headers/Public/UAProgressView" "${PODS_ROOT}/Headers/Public/youtube-ios-player-helper"
+PODS_ROOT = ${SRCROOT}
+PODS_SHARED_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
